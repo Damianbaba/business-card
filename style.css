@@ -23,7 +23,7 @@ body {
     padding: 32px;
 }
 
-.perosn{
+.person{
 
 }
 .person__name{
@@ -43,9 +43,24 @@ body {
     font-size: 16px;
     color: #000;
     line-height: 22px;
+    margin: 0;
+}
+
+.person__description--width-margin{
+margin-bottom: 22px;
+
+}
+
+.person__info{
+    margin-bottom: 24px;
 }
 
  .special {
      color: #ED6D05;
      font-weight: normal;
+ }
+
+ .person__link {
+     color: #E20613;
+     text-decoration: none;
  }
