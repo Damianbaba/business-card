@@ -1,11 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     background: #2C2141;
     min-height: 100vh;
-
-    
+    font-family: arial;
 }
 
 .main {
@@ -13,4 +20,32 @@ body {
     border-radius: 16px;
     width: 624px;
     margin: 16px;
+    padding: 32px;
 }
+
+.perosn{
+
+}
+.person__name{
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.person__position {
+    font-size: 18px;
+    color: #545454;
+    margin: 0;
+    font-style: italic;
+}
+
+.person__description {
+    font-size: 16px;
+    color: #000;
+    line-height: 22px;
+}
+
+ .special {
+     color: #ED6D05;
+     font-weight: normal;
+ }
